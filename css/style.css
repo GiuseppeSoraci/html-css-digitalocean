@@ -10,6 +10,11 @@ h2 {
     text-align: center;
 }
 
+/* ul */
+ul {
+    list-style: none;
+}
+
 /* Backgrounds */
 .bg-blue-linear {
     background: linear-gradient(0.40turn, #00209b, #0032ac, #0046c4);
@@ -256,8 +261,7 @@ button img {
     border-left: 2px solid #cccccc;
 }
 
-.info-section ul {
-    list-style-type: none;
+.info-section ul {  
     padding-left: 5px;      
     margin-left: 0; 
     font-size: 18px;
@@ -425,4 +429,51 @@ h3 {
     display: block;
     margin: 25px auto 50px auto;
     padding: 10px 20px;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+}
+
+footer ul {
+    padding-left: 5px;
+}
+
+footer img {
+    max-height: 45px;
+    margin: 25px 0 10px 0;
+    padding-left: 5px;
+}
+
+footer h4 {
+    font-size: 16px;
+}
+
+footer h4 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+footer li a {
+    color: #8b94a9;
+}
+
+footer .icons i{
+    font-size: 18px;  
+    padding-top: 12px;
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    color: #8b94a9;
+}
+
+footer span {
+    display: block;
+    color: #8b94a9;
+    padding-left: 2px;
+}
+
+footer .ny {
+    color: #516080;
+    padding-left: 0;
 }
