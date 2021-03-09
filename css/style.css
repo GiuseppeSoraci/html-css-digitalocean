@@ -44,6 +44,32 @@ h2 {
     border: 0.5px solid #eeeeee;
 }
 
+/* Slide Sections */
+.slide-section {
+    background: #f3f5f9;
+}
+
+.slide-section .circle-slide {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.slide-section img {
+    padding: 20px;
+}
+
+.slide-section p {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.slide-section i {
+    font-size: 10px;
+    color: #006aff;
+    margin-bottom: 60px;
+}
+
+
 /* HEADER */
 .main-header {
     font-size: 16px; 
@@ -251,10 +277,7 @@ h3 {
     color: #5c6a88;
 }
 
-/* FIRST SLIDE SECTION */
-.first-slide-section {
-    background: #f3f5f9;
-}
+/* First Slide Sections */
 
 .first-slide-intro {
     text-align: center;
@@ -269,26 +292,6 @@ h3 {
 .first-slide-intro p {
     font-size: 19px;
     color: #586686;
-}
-
-.first-slide-section .circle-slide {
-    text-align: center;
-    margin-top: 5px;
-}
-
-.first-slide-section img {
-    padding: 20px;
-}
-
-.first-slide-section p {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.first-slide-section i {
-    font-size: 10px;
-    color: #006aff;
-    margin-bottom: 60px;
 }
 
 /* FEATURES SECTION */
@@ -348,4 +351,61 @@ h3 {
 
 .regions-section table a {
     color: #00d5d1;
+}
+
+/* SECOND SLIDE SECTION*/
+.second-slide-box {
+    margin: auto;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.2px);
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.second-slide-box .second-slide-intro {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.slide-section h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+.second-slide-box img{
+    margin: auto;
+}
+
+.second-slide-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #66728e;
+}
+
+.second-slide-box .cto {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.second-slide-box span {
+    display: block;
+    font-size: 16px;
+}
+
+.second-slide-box span:first-child {
+    color: #031c4e;
+}
+
+.second-slide-box span:nth-child(2) {
+    color: #142b58;
+}
+
+.second-slide-box a {
+    font-size: 16px;
+    color: #006aff;
 }
