@@ -5,7 +5,6 @@ body {
 
 /* UTILITY */
 
-
 /* Backgrounds */
 .bg-blue-linear {
     background: linear-gradient(0.40turn, #00209b, #0032ac, #0046c4);
@@ -222,7 +221,7 @@ button img {
 
 .info-section .box-ul {
     margin-bottom: 20px;
-    line-height: 30px;
+    line-height: 26px;
     border-left: 2px solid #cccccc;
 }
 
@@ -252,4 +251,42 @@ h3 {
     color: #5c6a88;
 }
 
+/* FIRST SLIDE SECTION */
+.first-slide-section {
+    background: #f3f5f9;
+}
 
+.first-slide-intro {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+} 
+
+.first-slide-intro h2 {
+    color: #031c4e;
+}
+
+.first-slide-intro p {
+    font-size: 19px;
+    color: #586686;
+}
+
+.first-slide-section .circle-slide {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.first-slide-section img {
+    padding: 20px;
+}
+
+.first-slide-section p {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.first-slide-section i {
+    font-size: 10px;
+    color: #006aff;
+    margin-bottom: 60px;
+}

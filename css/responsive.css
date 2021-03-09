@@ -34,6 +34,16 @@ RESPONSIVE
         margin-right: 5px;
         margin-left: 0;
     }
+
+    /* First Slide Section */
+    .first-slide-intro {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .first-slide-section p {
+        margin-bottom: 60px;
+    }
 }
 
 /* Desktop Version - 992 > */
@@ -46,6 +56,15 @@ RESPONSIVE
     
     .jumbotron-intro h2 {
         font-size: 50px;
+    }
+
+    /* First Slide Section */
+    .first-slide-intro {
+        margin-bottom: 60px;
+    }
+    
+    .first-slide-section p {
+        margin-bottom: 10px;
     }
 
 }
