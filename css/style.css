@@ -5,6 +5,11 @@ body {
 
 /* UTILITY */
 
+/* h2 */
+h2 {
+    text-align: center;
+}
+
 /* Backgrounds */
 .bg-blue-linear {
     background: linear-gradient(0.40turn, #00209b, #0032ac, #0046c4);
@@ -216,7 +221,7 @@ button img {
 
 .info-section .box-ul {
     margin-bottom: 20px;
-    line-height: 26px;
+    line-height: 27px;
     border-left: 2px solid #cccccc;
 }
 
@@ -289,7 +294,6 @@ h3 {
 /* FEATURES SECTION */
 .features-section h2 {
     padding: 40px 0 20px 0;
-    text-align: center;
     color: #031c4e
 }
 
@@ -310,4 +314,38 @@ h3 {
 
 .features-section a {
     color: #006aff;
+}
+
+/* REGIONS SECTION */
+.regions-section {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.regions-section h2{
+    color: #fff;
+}
+
+.regions-section table {
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.regions-section table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.regions-section table tr td:first-child {
+    color: #fff;
+}
+
+.regions-section table tr td:nth-child(2) {
+    color: #bbc9eb;
+}
+
+.regions-section table a {
+    color: #00d5d1;
 }
