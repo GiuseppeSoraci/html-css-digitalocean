@@ -23,8 +23,6 @@ h2 {
 .btn-white {
     text-decoration: none;
     font-size: 16px;
-    position: relative;
-    top: 16px;
     background-color: #fff;
     border-color: #006aff;
     color: #006aff;
@@ -70,6 +68,7 @@ h2 {
 }
 
 
+
 /* HEADER */
 .main-header {
     font-size: 16px; 
@@ -96,6 +95,11 @@ h2 {
 .desktop-center-col {
     position: relative;
     top: 5px;
+}
+
+.main-header .btn {
+    position: relative;
+    top: 16px;
 }
 
 .btn-white ul li a {
@@ -134,6 +138,7 @@ h2 {
 /* Jumbotron-Intro */
 .jumbotron-intro h2 {
     font-size: 32px;
+    text-align: left;
 }
 
 .jumbotron-intro p {
@@ -408,4 +413,16 @@ h3 {
 .second-slide-box a {
     font-size: 16px;
     color: #006aff;
+}
+
+/* PREFOOTER */
+.prefooter h2 {
+    padding-top: 40px;
+    font-size: 35px;
+    color: #fff;
+}
+.prefooter .btn{
+    display: block;
+    margin: 25px auto 50px auto;
+    padding: 10px 20px;
 }
