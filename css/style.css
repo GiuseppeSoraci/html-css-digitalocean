@@ -1,0 +1,255 @@
+/* GENERAL */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITY */
+
+
+/* Backgrounds */
+.bg-blue-linear {
+    background: linear-gradient(0.40turn, #00209b, #0032ac, #0046c4);
+}
+
+.bg-blue {
+    background: #031c4e;
+}
+
+/* Buttons */
+.btn-white {
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 16px;
+    background-color: #fff;
+    border-color: #006aff;
+    color: #006aff;
+}
+
+.btn-account {
+    background-color: #579aff;
+    border-color: #eeeeee
+}
+
+.btn-google {
+    position: relative;
+    top: 10px;
+    filter: drop-shadow(0 0 0.1rem);
+    color: #626262;
+    background-color: #fff;
+    border: 0.5px solid #eeeeee;
+}
+
+/* HEADER */
+.main-header {
+    font-size: 16px; 
+    height: 65px;
+    background: #fff;
+}
+
+.main-header ul li a:not(.btn-white) {
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+    color: #031c4e;
+}
+
+.fixed-head {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.desktop-center-col {
+    position: relative;
+    top: 5px;
+}
+
+.btn-white ul li a {
+    color: #006aff;
+}
+
+.main-header img {
+    max-width: 160px;
+    position: relative;
+    top: 18px;
+}
+
+.fa-bars {
+    position: relative;
+    color: #3a8aff;
+    top: 22px;
+}
+
+.fa-angle-down {
+    position: relative;
+    top: 18px; 
+}
+
+/* MAIN */
+
+/* JUMBOTRON */
+.jumbotron {
+    background: url(file:///C:/Users/giuse/Desktop/html-css-digitalocean/img/bg-banner-home.jpg);
+    max-height: 720px;
+    margin-top: 65px;
+    margin-bottom: 0;
+    background-size: contain;
+    color: #fff;
+}
+
+/* Jumbotron-Intro */
+.jumbotron-intro h2 {
+    font-size: 32px;
+}
+
+.jumbotron-intro p {
+    color: #bbcdff;
+    font-size: 20px;
+}
+
+/* Registration Form */
+.registration-form {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.registration-form h2:first-child {
+    color: #031c4e;
+    padding-top: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.registration-form h2:nth-child(2) {
+    color: #006aff;
+}
+
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form button[type="submit"] {
+    display: block;
+    width: 90%;
+    margin: auto;;
+}
+
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    padding: 0;
+}
+
+.registration-form ::placeholder {
+    color: #757575;
+}
+
+button img {
+    max-width: 20px;
+    float: left;
+}
+
+.registration-form p {
+    padding: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: #031c4e;
+}
+
+.registration-form p a {
+    text-decoration: underline;
+    color: #006aff;
+}
+
+/* BRAND SECTION */
+.brand-section {
+    max-height: 560px;
+    text-align: center;
+    background: #f3f5f9;
+    padding-bottom: 30px;
+}
+
+.brand-section h2 {
+    font-size: 16px;
+    padding: 20px;
+    color: #77829d;
+}
+
+.brand-section a {
+    color: #046fff;
+}
+
+.brand-section img{
+    width: 100%;
+}
+
+.brand-section ul li{
+    width: calc((90% / 2) - 15px );   
+}
+
+.brand-section ul li {
+    position: relative;
+    right: 16px;
+}
+
+.brand-right{
+    margin-right: 25px;
+}
+
+.brand-left{
+    margin-left: 25px;
+}
+
+/* INFO SECTION */
+.intro-info-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.intro-info-section p {
+    font-size: 20px;
+}
+
+.info-section .box-ul {
+    margin-bottom: 20px;
+    line-height: 30px;
+    border-left: 2px solid #cccccc;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding-left: 5px;      
+    margin-left: 0; 
+    font-size: 18px;
+    color: #75809a;
+}
+
+.info-section h2 {
+    font-size: 32px;
+}
+
+.info-section h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-section h2,
+h3 {
+    color: #031c4e
+}
+
+.info-section p {
+    color: #5c6a88;
+}
+
+

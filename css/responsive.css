@@ -1,0 +1,51 @@
+
+/********************************
+RESPONSIVE
+********************************/
+
+/* Tablet Version - 768 > */
+@media screen and (min-width: 768px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        max-height: 540px;
+    }
+
+    .jumbotron-intro h2 {
+        font-size: 35px;
+    }
+    
+    .jumbotron-intro p {
+        font-size: 21px;
+    }
+
+    /* Brand Section */
+    .brand-section {
+        min-height: 200px;
+    }
+
+    .brand-section .brands {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .brand-section .brands ul li{
+        width: calc((100% / 6) - 10px);
+        margin-right: 5px;
+        margin-left: 0;
+    }
+}
+
+/* Desktop Version - 992 > */
+@media screen and (min-width: 992px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        max-height: 500px;
+    }
+    
+    .jumbotron-intro h2 {
+        font-size: 50px;
+    }
+
+}
