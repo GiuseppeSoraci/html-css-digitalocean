@@ -422,6 +422,7 @@ h3 {
 /* FOOTER */
 footer {
     color: #fff;
+    padding-bottom: 50px;
 }
 
 footer ul {
@@ -464,4 +465,60 @@ footer span {
 footer .ny {
     color: #516080;
     padding-left: 0;
+}
+
+/* HELP */
+.help-container {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+}
+
+.shark {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #006aff;
+}
+
+.shark img {
+    position: relative;
+    top: 5px;
+}
+
+.help-container .notification {
+    position: absolute;
+    top: 0;
+    left: 43px;
+    transform: translate(50%, -50%);
+    font-size: 0.6em;
+    width: 2em;
+    height: 2em;
+    line-height: 1.5em;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+}
+
+.help-container .help {
+    width: 20em;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+    filter: drop-shadow(0 0 0.2em black)
+}
+
+.help::after {
+    position: absolute;
+    content: "";
+    right: 0px;
+    bottom: 14px;
+    transform: translate(50%, 0) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-right: .5px solid #fff;
+    border-top: .5px solid #fff;
 }

@@ -62,7 +62,6 @@ RESPONSIVE
         left: -10%;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 50px;
         color: #6f7b97;
     }
 
@@ -75,7 +74,6 @@ RESPONSIVE
         font-size: 50px;
         color: #031c4e;
     }
-}
 
 /* Desktop Version - 992 > */
 @media screen and (min-width: 992px) {
@@ -97,5 +95,21 @@ RESPONSIVE
     .first-slide-section p {
         margin-bottom: 10px;
     }
+
+    /* Help */
+    .help-container {
+        bottom: 40px;
+        left: auto;   
+        right: 12%;     
+    }
+
+    .shark {
+        position: absolute;
+        bottom: -10px;
+        right: -25%;
+        width: 4em;
+        height: 4em;
+    }
+}
 
 }
